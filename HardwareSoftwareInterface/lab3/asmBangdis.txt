@@ -1,0 +1,15 @@
+
+asmBang.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	68 f3 0e 40 00       	pushq  $0x400ef3
+   5:	48 b8 11 96 b1 3b b7 	movabs $0x7c1295b73bb19611,%rax
+   c:	95 12 7c 
+   f:	48 bd 50 b3 ff ff ff 	movabs $0x7fffffffb350,%rbp
+  16:	7f 00 00 
+  19:	48 bc 30 b3 ff ff ff 	movabs $0x7fffffffb330,%rsp
+  20:	7f 00 00 
+  23:	c3                   	retq   
